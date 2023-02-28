@@ -4,7 +4,7 @@ metadata:
   name: vendor-empathy
 spec:
   title: Vendor Empathy
-  icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/kubernetes/icon/color/kubernetes-icon-color.png
+  icon: https://avatars.githubusercontent.com/u/67430892?v=4
   statusInformers:
     - deployment/example-nginx
   ports:
