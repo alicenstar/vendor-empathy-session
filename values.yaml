@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-github_pat: ""
+github_pat: '{{repl ConfigOption "github_pat"}}'
 resources:
   limits:
     memory: '256Mi'
