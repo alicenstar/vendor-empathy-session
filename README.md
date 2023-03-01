@@ -56,7 +56,7 @@ If you have docker running, you can see the app locally
 
 
 ```
-docker built -t helm-starter .
+docker build -t helm-starter .
 docker run --rm -it -p 8888:8888 helm-starter
 ```
 

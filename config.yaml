@@ -1,0 +1,11 @@
+apiVersion: kots.io/v1beta1
+kind: Config
+spec:
+  groups:
+    - name: github_pat
+      title: GitHub PAT
+      items:
+      - name: github_pat
+        title: GitHub PAT
+        type: text
+        default: ""

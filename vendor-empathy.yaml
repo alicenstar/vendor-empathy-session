@@ -1,0 +1,7 @@
+apiVersion: kots.io/v1beta1
+kind: Application
+metadata:
+  name: vendor-empathy
+spec:
+  title: Vendor Empathy
+  icon: https://support.io/img/logo.png
