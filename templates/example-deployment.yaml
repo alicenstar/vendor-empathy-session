@@ -22,10 +22,12 @@ spec:
           envFrom:
           - configMapRef:
               name: example-config
+{{ if .Values.resources }}
           resources:
             limits:
-              memory: '256Mi'
-              cpu: '500m'
+              memory: {{ .Values.resources.limits.memory }}
+              cpu: {{ .Values.resources.limits.cpu }}
+{{ end }}
             requests:
               memory: '32Mi'
               cpu: '100m'
